@@ -1,34 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updated Index</title>
+    <title>Livestream Application</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        /* Background customization styles */
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Teng INFOCOMM!</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Livestream Watching Fixes</h2>
-            <p>We've made several improvements to the livestream experience, ensuring better connectivity and reduced buffering times.</p>
-        </section>
-        <section>
-            <h2>Media Upload</h2>
-            <p>Users can now easily upload media with a more user-friendly interface and better file handling mechanisms.</p>
-        </section>
-        <section>
-            <h2>Background Customization</h2>
-            <p>Customize the background of your profile with new themes and colors to enhance your personal experience.</p>
-        </section>
-        <section>
-            <h2>Commenting System</h2>
-            <p>Engage with others through our new commenting system, allowing for direct interaction and feedback.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Teng INFOCOMM. All rights reserved.</p>
-    </footer>
+    <h1>Welcome to the Livestream Application</h1>
+
+    <div id="livestream">
+        <h2>Live Stream</h2>
+        <video controls autoplay></video>
+        <!-- Livestream watching element, add JavaScript to manage the stream -->
+    </div>
+
+    <div id="media-upload">
+        <h2>Upload Media</h2>
+        <input type="file" id="media-file" />
+        <button onclick="uploadMedia()">Upload</button>
+        <!-- Media upload capability -->
+    </div>
+
+    <div id="comments">
+        <h2>Comments</h2>
+        <textarea id="comment-box" placeholder="Leave a comment..."></textarea>
+        <button onclick="submitComment()">Submit</button>
+        <!-- Commenting system -->
+    </div>
+
+    <div id="edit-stream-modal">
+        <h2>Edit Stream</h2>
+        <button onclick="openEditModal()">Edit</button>
+        <!-- Enhanced edit stream modal -->
+    </div>
+
+    <script>
+        function uploadMedia() {
+            // JavaScript code for media upload functionality
+        }
+
+        function submitComment() {
+            // JavaScript code for submitting comments
+        }
+
+        function openEditModal() {
+            // JavaScript code for opening edit modal
+        }
+    </script>
 </body>
 </html>
